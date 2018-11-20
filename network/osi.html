@@ -1,0 +1,349 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>OSI 模型 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tcpip.html" />
+    
+    
+    <link rel="prev" href="Internet.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Internet.html">
+            
+                <a href="Internet.html">
+            
+                    
+                    Internet因特网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="osi.html">
+            
+                <a href="osi.html">
+            
+                    
+                    OSI 模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="tcpip.html">
+            
+                <a href="tcpip.html">
+            
+                    
+                    TCP/IP协议族
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="lan.html">
+            
+                <a href="lan.html">
+            
+                    
+                    局域网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="vlan.html">
+            
+                <a href="vlan.html">
+            
+                    
+                    虚拟局域网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="wlan.html">
+            
+                <a href="wlan.html">
+            
+                    
+                    无线局域网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="dns.html">
+            
+                <a href="dns.html">
+            
+                    
+                    DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >OSI 模型</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="osi-&#x6A21;&#x578B;">OSI &#x6A21;&#x578B;</h1>
+<p>&#x5F00;&#x653E;&#x5F0F;&#x7CFB;&#x7EDF;&#x4E92;&#x8054;&#x901A;&#x4FE1;&#x53C2;&#x8003;&#x6A21;&#x578B; Open System Interconnection Reference Model</p>
+<ul>
+<li>&#x4E00;&#x79CD;&#x6982;&#x5FF5;&#x6A21;&#x578B;</li>
+<li>&#x7531;&#x56FD;&#x9645;&#x6807;&#x51C6;&#x5316;&#x7EC4;&#x7EC7;&#x63D0;&#x51FA;</li>
+<li>&#x4E00;&#x4E2A;&#x8BD5;&#x56FE;&#x4F7F;&#x5404;&#x79CD;&#x8BA1;&#x7B97;&#x673A;&#x5728;&#x4E16;&#x754C;&#x8303;&#x56F4;&#x5185;&#x4E92;&#x8FDE;&#x4E3A;&#x7F51;&#x7EDC;&#x7684;&#x6807;&#x51C6;&#x6846;&#x67B6;</li>
+<li>&#x5B9A;&#x4E49;&#x4E8E;ISO/IEC 7498-1</li>
+</ul>
+<p>&#x5728;&#x5236;&#x5B9A;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;&#x6807;&#x51C6;&#x65B9;&#x9762;&#xFF0C;&#x8D77;&#x7740;&#x91CD;&#x5927;&#x4F5C;&#x7528;&#x7684;&#x4E24;&#x5927;&#x56FD;&#x9645;&#x7EC4;&#x7EC7;&#x662F;&#xFF1A;&#x56FD;&#x9645;&#x7535;&#x4FE1;&#x8054;&#x76DF;&#x7535;&#x4FE1;&#x6807;&#x51C6;&#x5316;&#x90E8;&#x95E8;&#xFF0C;&#x4E0E;&#x56FD;&#x9645;&#x6807;&#x51C6;&#x7EC4;&#x7EC7;&#xFF08;ISO&#xFF09;&#xFF0C;&#x867D;&#x7136;&#x5B83;&#x4EEC;&#x5DE5;&#x4F5C;&#x9886;&#x57DF;&#x4E0D;&#x540C;&#xFF0C;&#x4F46;&#x968F;&#x7740;&#x79D1;&#x5B66;&#x6280;&#x672F;&#x7684;&#x53D1;&#x5C55;&#xFF0C;&#x901A;&#x4FE1;&#x4E0E;&#x4FE1;&#x606F;&#x5904;&#x7406;&#x4E4B;&#x95F4;&#x7684;&#x754C;&#x9650;&#x5F00;&#x59CB;&#x53D8;&#x5F97;&#x6BD4;&#x8F83;&#x6A21;&#x7CCA;&#xFF0C;&#x8FD9;&#x4E5F;&#x6210;&#x4E86;&#x56FD;&#x9645;&#x7535;&#x4FE1;&#x8054;&#x76DF;&#x7535;&#x4FE1;&#x6807;&#x51C6;&#x5316;&#x90E8;&#x95E8;&#x548C;ISO&#x5171;&#x540C;&#x5173;&#x5FC3;&#x7684;&#x9886;&#x57DF;&#x3002;1984&#x5E74;&#xFF0C;ISO&#x53D1;&#x5E03;&#x4E86;&#x8457;&#x540D;&#x7684;ISO/IEC 7498&#x6807;&#x51C6;&#xFF0C;&#x5B83;&#x5B9A;&#x4E49;&#x4E86;&#x7F51;&#x7EDC;&#x4E92;&#x8054;&#x7684;7&#x5C42;&#x6846;&#x67B6;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5F00;&#x653E;&#x5F0F;&#x7CFB;&#x7EDF;&#x4E92;&#x8054;&#x53C2;&#x8003;&#x6A21;&#x578B;&#x3002;</p>
+<p>&#x5C42;&#x6B21;&#x5212;&#x5206;
+&#x6839;&#x636E;&#x5EFA;&#x8BAE;X.200&#xFF0C;OSI&#x5C06;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;&#x4F53;&#x7CFB;&#x7ED3;&#x6784;&#x5212;&#x5206;&#x4E3A;&#x4EE5;&#x4E0B;&#x4E03;&#x5C42;&#xFF0C;&#x6807;&#x6709;1&#xFF5E;7&#xFF0C;&#x7B2C;1&#x5C42;&#x5728;&#x5E95;&#x90E8;&#x3002; 
+&#x7B2C;7&#x5C42; &#x5E94;&#x7528;&#x5C42;
+&#x5E94;&#x7528;&#x5C42;&#xFF08;Application Layer&#xFF09;&#x63D0;&#x4F9B;&#x4E3A;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;&#x800C;&#x8BBE;&#x7684;&#x63A5;&#x53E3;&#xFF0C;&#x4EE5;&#x8BBE;&#x7F6E;&#x4E0E;&#x53E6;&#x4E00;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x3002;&#x4F8B;&#x5982;: HTTP&#xFF0C;HTTPS&#xFF0C;FTP&#xFF0C;TELNET&#xFF0C;SSH&#xFF0C;SMTP&#xFF0C;POP3&#x7B49;&#x3002;</p>
+<p>&#x7B2C;6&#x5C42; &#x8868;&#x8FBE;&#x5C42;
+&#x8868;&#x8FBE;&#x5C42;&#xFF08;Presentation Layer&#xFF09;&#x628A;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x4E3A;&#x80FD;&#x4E0E;&#x63A5;&#x6536;&#x8005;&#x7684;&#x7CFB;&#x7EDF;&#x683C;&#x5F0F;&#x517C;&#x5BB9;&#x5E76;&#x9002;&#x5408;&#x4F20;&#x8F93;&#x7684;&#x683C;&#x5F0F;&#x3002;</p>
+<p>&#x7B2C;5&#x5C42; &#x4F1A;&#x8BDD;&#x5C42;
+&#x4F1A;&#x8BDD;&#x5C42;&#xFF08;Session Layer&#xFF09;&#x8D1F;&#x8D23;&#x5728;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x4E2D;&#x8BBE;&#x7F6E;&#x548C;&#x7EF4;&#x62A4;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;&#x4E2D;&#x4E24;&#x53F0;&#x8BA1;&#x7B97;&#x673A;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x8FDE;&#x63A5;&#x3002;</p>
+<p>&#x7B2C;4&#x5C42; &#x4F20;&#x8F93;&#x5C42;
+&#x4F20;&#x8F93;&#x5C42;&#xFF08;Transport Layer&#xFF09;&#x628A;&#x4F20;&#x8F93;&#x8868;&#x5934;&#xFF08;TH&#xFF09;&#x52A0;&#x81F3;&#x6570;&#x636E;&#x4EE5;&#x5F62;&#x6210;&#x6570;&#x636E;&#x5305;&#x3002;&#x4F20;&#x8F93;&#x8868;&#x5934;&#x5305;&#x542B;&#x4E86;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x534F;&#x8BAE;&#x7B49;&#x53D1;&#x9001;&#x4FE1;&#x606F;&#x3002;&#x4F8B;&#x5982;:&#x4F20;&#x8F93;&#x63A7;&#x5236;&#x534F;&#x8BAE;&#xFF08;TCP&#xFF09;&#x7B49;&#x3002;</p>
+<p>&#x7B2C;3&#x5C42; &#x7F51;&#x7EDC;&#x5C42;
+&#x7F51;&#x7EDC;&#x5C42;&#xFF08;Network Layer&#xFF09;&#x51B3;&#x5B9A;&#x6570;&#x636E;&#x7684;&#x8DEF;&#x5F84;&#x9009;&#x62E9;&#x548C;&#x8F6C;&#x5BC4;&#xFF0C;&#x5C06;&#x7F51;&#x7EDC;&#x8868;&#x5934;&#xFF08;NH&#xFF09;&#x52A0;&#x81F3;&#x6570;&#x636E;&#x5305;&#xFF0C;&#x4EE5;&#x5F62;&#x6210;&#x5206;&#x7EC4;&#x3002;&#x7F51;&#x7EDC;&#x8868;&#x5934;&#x5305;&#x542B;&#x4E86;&#x7F51;&#x7EDC;&#x6570;&#x636E;&#x3002;&#x4F8B;&#x5982;:&#x4E92;&#x8054;&#x7F51;&#x534F;&#x8BAE;&#xFF08;IP&#xFF09;&#x7B49;&#x3002;</p>
+<p>&#x7B2C;2&#x5C42; &#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;
+&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;&#xFF08;Data Link Layer&#xFF09;&#x8D1F;&#x8D23;&#x7F51;&#x7EDC;&#x5BFB;&#x5740;&#x3001;&#x9519;&#x8BEF;&#x4FA6;&#x6D4B;&#x548C;&#x6539;&#x9519;&#x3002;&#x5F53;&#x8868;&#x5934;&#x548C;&#x8868;&#x5C3E;&#x88AB;&#x52A0;&#x81F3;&#x6570;&#x636E;&#x5305;&#x65F6;&#xFF0C;&#x4F1A;&#x5F62;&#x6210;&#x5E27;&#x3002;&#x6570;&#x636E;&#x94FE;&#x8868;&#x5934;&#xFF08;DLH&#xFF09;&#x662F;&#x5305;&#x542B;&#x4E86;&#x7269;&#x7406;&#x5730;&#x5740;&#x548C;&#x9519;&#x8BEF;&#x4FA6;&#x6D4B;&#x53CA;&#x6539;&#x9519;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x6570;&#x636E;&#x94FE;&#x8868;&#x5C3E;&#xFF08;DLT&#xFF09;&#x662F;&#x4E00;&#x4E32;&#x6307;&#x793A;&#x6570;&#x636E;&#x5305;&#x672B;&#x7AEF;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;&#x4F8B;&#x5982;&#x4EE5;&#x592A;&#x7F51;&#x3001;&#x65E0;&#x7EBF;&#x5C40;&#x57DF;&#x7F51;&#xFF08;Wi-Fi&#xFF09;&#x548C;&#x901A;&#x7528;&#x5206;&#x7EC4;&#x65E0;&#x7EBF;&#x670D;&#x52A1;&#xFF08;GPRS&#xFF09;&#x7B49;&#x3002;</p>
+<p>&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x5B50;&#x5C42;&#xFF1A;&#x903B;&#x8F91;&#x94FE;&#x8DEF;&#x63A7;&#x5236;&#xFF08;logic link control&#xFF0C;LLC&#xFF09;&#x5B50;&#x5C42;&#x548C;&#x4ECB;&#x8D28;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#xFF08;media access control&#xFF0C;MAC&#xFF09;&#x5B50;&#x5C42;&#x3002;</p>
+<p>&#x7B2C;1&#x5C42; &#x7269;&#x7406;&#x5C42;
+&#x7269;&#x7406;&#x5C42;&#xFF08;Physical Layer&#xFF09;&#x5728;&#x5C40;&#x90E8;&#x5C40;&#x57DF;&#x7F51;&#x4E0A;&#x4F20;&#x9001;&#x6570;&#x636E;&#x5E27;&#xFF08;data frame&#xFF09;&#xFF0C;&#x5B83;&#x8D1F;&#x8D23;&#x7BA1;&#x7406;&#x8BA1;&#x7B97;&#x673A;&#x901A;&#x4FE1;&#x8BBE;&#x5907;&#x548C;&#x7F51;&#x7EDC;&#x5A92;&#x4F53;&#x4E4B;&#x95F4;&#x7684;&#x4E92;&#x901A;&#x3002;&#x5305;&#x62EC;&#x4E86;&#x9488;&#x811A;&#x3001;&#x7535;&#x538B;&#x3001;&#x7EBF;&#x7F06;&#x89C4;&#x8303;&#x3001;&#x96C6;&#x7EBF;&#x5668;&#x3001;&#x4E2D;&#x7EE7;&#x5668;&#x3001;&#x7F51;&#x5361;&#x3001;&#x4E3B;&#x673A;&#x9002;&#x914D;&#x5668;&#x7B49;&#x3002;</p>
+<p>&#x5F71;&#x54CD;
+OSI&#x662F;&#x4E00;&#x4E2A;&#x5B9A;&#x4E49;&#x826F;&#x597D;&#x7684;&#x534F;&#x8BAE;&#x89C4;&#x8303;&#x96C6;&#xFF0C;&#x5E76;&#x6709;&#x8BB8;&#x591A;&#x53EF;&#x9009;&#x90E8;&#x5206;&#x5B8C;&#x6210;&#x7C7B;&#x4F3C;&#x7684;&#x4EFB;&#x52A1;&#x3002;&#x5B83;&#x5B9A;&#x4E49;&#x4E86;&#x5F00;&#x653E;&#x7CFB;&#x7EDF;&#x7684;&#x5C42;&#x6B21;&#x7ED3;&#x6784;&#x3001;&#x5C42;&#x6B21;&#x4E4B;&#x95F4;&#x7684;&#x76F8;&#x4E92;&#x5173;&#x7CFB;&#x4EE5;&#x53CA;&#x5404;&#x5C42;&#x6240;&#x5305;&#x62EC;&#x7684;&#x53EF;&#x80FD;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6846;&#x67B6;&#x6765;&#x534F;&#x8C03;&#x548C;&#x7EC4;&#x7EC7;&#x5404;&#x5C42;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x670D;&#x52A1;&#x3002;</p>
+<p>OSI&#x53C2;&#x8003;&#x6A21;&#x578B;&#x5E76;&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x800C;&#x662F;&#x63CF;&#x8FF0;&#x4E86;&#x4E00;&#x4E9B;&#x6982;&#x5FF5;&#xFF0C;&#x7528;&#x6765;&#x534F;&#x8C03;&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;&#x6807;&#x51C6;&#x7684;&#x5236;&#x5B9A;&#x3002;&#x5373;OSI&#x53C2;&#x8003;&#x6A21;&#x578B;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x6807;&#x51C6;&#xFF0C;&#x800C;&#x662F;&#x4E00;&#x4E2A;&#x5728;&#x5236;&#x5B9A;&#x6807;&#x51C6;&#x65F6;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x6982;&#x5FF5;&#x6027;&#x6846;&#x67B6;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Internet.html" class="navigation navigation-prev " aria-label="Previous page: Internet因特网">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tcpip.html" class="navigation navigation-next " aria-label="Next page: TCP/IP协议族">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"OSI 模型","level":"1.3","depth":1,"next":{"title":"TCP/IP协议族","level":"1.4","depth":1,"path":"tcpip.md","ref":"tcpip.md","articles":[]},"previous":{"title":"Internet因特网","level":"1.2","depth":1,"path":"Internet.md","ref":"Internet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"osi.md","mtime":"2018-11-20T09:44:52.874Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-20T09:46:38.463Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
