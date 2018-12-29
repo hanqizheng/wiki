@@ -14,5 +14,9 @@
   "engines": {
     "node": ">=10.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
 }
